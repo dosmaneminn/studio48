@@ -114,8 +114,35 @@
     border-radius: var(--radius-sm);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .services-grid {
         grid-template-columns: 1fr;
+        gap: var(--space-md);
+    }
+
+    .service-image {
+        height: 180px;
+    }
+
+    .service-content {
+        padding: var(--space-md);
+    }
+
+    .service-content h3 {
+        font-size: 1.3rem;
+    }
+
+    .service-content p {
+        font-size: 0.85rem;
+    }
+
+    .service-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .service-icon svg {
+        width: 22px;
+        height: 22px;
     }
 }

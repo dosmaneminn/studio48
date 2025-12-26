@@ -56,6 +56,7 @@ function About({ about }) {
                                 src="/images/gym-interior.png"
                                 alt="Studio48 CrossFit Gym İç Mekan"
                                 className="about-img"
+                                loading="lazy"
                             />
                             <div className="about-image-accent"></div>
                         </div>

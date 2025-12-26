@@ -55,7 +55,7 @@ function Services({ services }) {
                         >
                             <div className="service-image">
                                 {service.image ? (
-                                    <img src={service.image} alt={service.name} />
+                                    <img src={service.image} alt={service.name} loading="lazy" />
                                 ) : (
                                     <div className="service-placeholder">
                                         <p>[ GÖRSEL: {service.name} dersi ]</p>

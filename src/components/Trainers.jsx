@@ -29,6 +29,7 @@ function Trainers({ trainers }) {
                                     src={trainer.image}
                                     alt={trainer.name}
                                     className="trainer-img"
+                                    loading="lazy"
                                 />
                             </div>
                             <div className="trainer-info">

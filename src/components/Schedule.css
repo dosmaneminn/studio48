@@ -151,3 +151,37 @@
 .legend-dot.pilates {
     background: #F1C40F;
 }
+
+/* Mobile Responsive */
+@media (max-width: 576px) {
+    .schedule-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-sm);
+    }
+
+    .schedule-card {
+        padding: var(--space-md);
+    }
+
+    .schedule-time {
+        font-size: 1.2rem;
+    }
+
+    .schedule-tabs {
+        flex-wrap: wrap;
+    }
+
+    .schedule-tab {
+        flex: 1;
+        min-width: 100px;
+        font-size: 0.75rem;
+    }
+
+    .schedule-legend {
+        gap: var(--space-sm);
+    }
+
+    .legend-item {
+        font-size: 0.65rem;
+    }
+}

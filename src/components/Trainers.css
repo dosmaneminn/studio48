@@ -50,3 +50,23 @@
     font-size: 0.8rem;
     color: var(--color-text-muted);
 }
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .trainers-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-md);
+    }
+
+    .trainer-img {
+        height: 220px;
+    }
+
+    .trainer-info {
+        padding: var(--space-md);
+    }
+
+    .trainer-info h3 {
+        font-size: 1.1rem;
+    }
+}
