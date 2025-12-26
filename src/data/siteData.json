@@ -1,8 +1,8 @@
 {
     "siteInfo": {
         "name": "Studio48",
-        "tagline": "CrossFit ile sınırlarını aş",
-        "phone": "+90 312 XXX XX XX",
+        "tagline": "CrossFit, Boks & Pilates ile sınırlarını aş",
+        "phone": "+90 252 XXX XX XX",
         "whatsapp": "+90 532 XXX XX XX",
         "email": "info@studio48.com.tr",
         "address": {
@@ -30,12 +30,50 @@
             "label": "Antrenör"
         },
         {
-            "value": 50,
+            "value": 60,
             "label": "Haftalık Ders"
         },
         {
             "value": 800,
             "label": "m² Alan"
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "name": "CrossFit",
+            "description": "Fonksiyonel hareketlerle yüksek yoğunluklu antrenman. Halter, jimnastik ve kardiyoyu birleştirerek tam vücut dönüşümü.",
+            "icon": "crossfit",
+            "image": "/images/service-crossfit.png",
+            "features": [
+                "WOD",
+                "Strength",
+                "Conditioning"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Boks",
+            "description": "Teknik boks eğitimi ve kum torbası çalışmaları. Reflekslerini geliştir, stres at, formunu koru.",
+            "icon": "boxing",
+            "image": "/images/service-boxing.png",
+            "features": [
+                "Teknik",
+                "Kum Torbası",
+                "Sparring"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Pilates",
+            "description": "Esneklik, denge ve core güçlendirme. Mat ve reformer pilates ile postürünü düzelt, kaslarını uzat.",
+            "icon": "pilates",
+            "image": "/images/service-pilates.png",
+            "features": [
+                "Mat Pilates",
+                "Reformer",
+                "Esneklik"
+            ]
         }
     ],
     "trainers": [
@@ -49,15 +87,15 @@
         {
             "id": 2,
             "name": "Elif Kaya",
-            "role": "CrossFit Coach",
-            "description": "CF-L2 · Beslenme Uzmanı",
+            "role": "CrossFit & Pilates Coach",
+            "description": "CF-L2 · Pilates Instructor",
             "image": "/images/trainer-elif.png"
         },
         {
             "id": 3,
             "name": "Mert Özdemir",
-            "role": "Strength Coach",
-            "description": "CF-L2 · Powerlifting",
+            "role": "Boks & Strength Coach",
+            "description": "Boks Antrenörü · Powerlifting",
             "image": "/images/trainer-mert.png"
         }
     ],
@@ -71,9 +109,15 @@
             },
             {
                 "time": "09:00",
-                "type": "mobility",
-                "name": "Mobility",
-                "duration": "45 dk"
+                "type": "pilates",
+                "name": "Pilates",
+                "duration": "50 dk"
+            },
+            {
+                "time": "10:00",
+                "type": "boxing",
+                "name": "Boks",
+                "duration": "60 dk"
             },
             {
                 "time": "12:00",
@@ -82,22 +126,28 @@
                 "duration": "60 dk"
             },
             {
+                "time": "17:00",
+                "type": "pilates",
+                "name": "Pilates",
+                "duration": "50 dk"
+            },
+            {
                 "time": "18:00",
+                "type": "boxing",
+                "name": "Boks",
+                "duration": "60 dk"
+            },
+            {
+                "time": "19:00",
                 "type": "strength",
                 "name": "Strength",
                 "duration": "75 dk"
             },
             {
-                "time": "19:30",
+                "time": "20:30",
                 "type": "wod",
                 "name": "WOD",
                 "duration": "60 dk"
-            },
-            {
-                "time": "21:00",
-                "type": "open",
-                "name": "Open Gym",
-                "duration": "90 dk"
             }
         ],
         "weekend": [
@@ -108,10 +158,16 @@
                 "duration": "60 dk"
             },
             {
-                "time": "11:00",
-                "type": "strength",
-                "name": "Strength",
-                "duration": "75 dk"
+                "time": "10:30",
+                "type": "pilates",
+                "name": "Pilates",
+                "duration": "50 dk"
+            },
+            {
+                "time": "11:30",
+                "type": "boxing",
+                "name": "Boks",
+                "duration": "60 dk"
             },
             {
                 "time": "14:00",
@@ -122,13 +178,13 @@
         ]
     },
     "about": {
-        "title": "CrossFit Deneyimi",
-        "description": "Studio48, 2020'den bu yana Ankara'da profesyonel CrossFit eğitimi sunmaktadır. Son teknoloji ekipmanlarımız ve uzman kadromuzla her seviyeden sporculara hizmet veriyoruz.",
+        "title": "Fitness Deneyimi",
+        "description": "Studio48, Muğla'da CrossFit, Boks ve Pilates eğitimi sunmaktadır. Son teknoloji ekipmanlarımız ve uzman kadromuzla her seviyeden sporculara hizmet veriyoruz.",
         "features": [
             "Rogue Ekipmanları",
-            "Level 2 Antrenörler",
-            "Kişisel Takip",
-            "Topluluk Ruhu"
+            "Boks Ringi",
+            "Reformer Pilates",
+            "Uzman Kadro"
         ]
     }
 }

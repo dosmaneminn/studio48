@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Stats from './components/Stats'
+import Services from './components/Services'
 import About from './components/About'
 import Schedule from './components/Schedule'
 import Trainers from './components/Trainers'
@@ -46,6 +47,7 @@ function App() {
       <main>
         <Hero siteInfo={siteData.siteInfo} />
         <Stats stats={siteData.stats} />
+        <Services services={siteData.services} />
         <About about={siteData.about} />
         <Schedule schedule={siteData.schedule} />
         <Trainers trainers={siteData.trainers} />

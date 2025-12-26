@@ -61,7 +61,8 @@ function Schedule({ schedule }) {
                 <div className="schedule-legend">
                     <div className="legend-item"><span className="legend-dot wod"></span>WOD</div>
                     <div className="legend-item"><span className="legend-dot strength"></span>Strength</div>
-                    <div className="legend-item"><span className="legend-dot mobility"></span>Mobility</div>
+                    <div className="legend-item"><span className="legend-dot boxing"></span>Boks</div>
+                    <div className="legend-item"><span className="legend-dot pilates"></span>Pilates</div>
                     <div className="legend-item"><span className="legend-dot open"></span>Open Gym</div>
                 </div>
             </div>

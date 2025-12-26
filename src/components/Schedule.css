@@ -91,6 +91,16 @@
     color: #B57EDC;
 }
 
+.schedule-type.boxing {
+    background: rgba(231, 76, 60, 0.2);
+    color: #E74C3C;
+}
+
+.schedule-type.pilates {
+    background: rgba(241, 196, 15, 0.2);
+    color: #F1C40F;
+}
+
 .schedule-duration {
     font-size: 0.7rem;
     color: var(--color-text-muted);
@@ -132,4 +142,12 @@
 
 .legend-dot.open {
     background: #B57EDC;
+}
+
+.legend-dot.boxing {
+    background: #E74C3C;
+}
+
+.legend-dot.pilates {
+    background: #F1C40F;
 }
