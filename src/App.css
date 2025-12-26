@@ -1,0 +1,52 @@
+/* App-specific styles */
+
+/* Preloader */
+.preloader {
+  position: fixed;
+  inset: 0;
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.preloader-inner {
+  text-align: center;
+}
+
+.preloader-logo {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: var(--color-text);
+}
+
+.preloader-logo span {
+  color: var(--color-accent);
+}
+
+.preloader-bar {
+  width: 100px;
+  height: 2px;
+  background: var(--color-border);
+  margin: var(--space-md) auto 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.preloader-bar::after {
+  content: '';
+  position: absolute;
+  left: -50%;
+  width: 50%;
+  height: 100%;
+  background: var(--color-accent);
+  animation: preload 1s ease-in-out infinite;
+}
+
+@keyframes preload {
+  to {
+    left: 100%;
+  }
+}

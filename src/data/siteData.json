@@ -1,0 +1,134 @@
+{
+    "siteInfo": {
+        "name": "Studio48",
+        "tagline": "CrossFit ile sınırlarını aş",
+        "phone": "+90 312 XXX XX XX",
+        "whatsapp": "+90 532 XXX XX XX",
+        "email": "info@studio48.com.tr",
+        "address": {
+            "street": "Atatürk Caddesi No: 48, Menteşe",
+            "city": "Muğla"
+        },
+        "hours": {
+            "weekday": "06:00 - 22:00",
+            "saturday": "08:00 - 18:00",
+            "sunday": "Kapalı"
+        },
+        "social": {
+            "instagram": "https://instagram.com/studio48",
+            "youtube": "https://youtube.com/studio48",
+            "whatsapp": "https://wa.me/905321234567"
+        }
+    },
+    "stats": [
+        {
+            "value": 500,
+            "label": "Üye"
+        },
+        {
+            "value": 8,
+            "label": "Antrenör"
+        },
+        {
+            "value": 50,
+            "label": "Haftalık Ders"
+        },
+        {
+            "value": 800,
+            "label": "m² Alan"
+        }
+    ],
+    "trainers": [
+        {
+            "id": 1,
+            "name": "Ahmet Yılmaz",
+            "role": "Baş Antrenör",
+            "description": "CF-L3 · 8 Yıl Deneyim",
+            "image": "/images/trainer-ahmet.png"
+        },
+        {
+            "id": 2,
+            "name": "Elif Kaya",
+            "role": "CrossFit Coach",
+            "description": "CF-L2 · Beslenme Uzmanı",
+            "image": "/images/trainer-elif.png"
+        },
+        {
+            "id": 3,
+            "name": "Mert Özdemir",
+            "role": "Strength Coach",
+            "description": "CF-L2 · Powerlifting",
+            "image": "/images/trainer-mert.png"
+        }
+    ],
+    "schedule": {
+        "weekday": [
+            {
+                "time": "07:00",
+                "type": "wod",
+                "name": "WOD",
+                "duration": "60 dk"
+            },
+            {
+                "time": "09:00",
+                "type": "mobility",
+                "name": "Mobility",
+                "duration": "45 dk"
+            },
+            {
+                "time": "12:00",
+                "type": "wod",
+                "name": "WOD",
+                "duration": "60 dk"
+            },
+            {
+                "time": "18:00",
+                "type": "strength",
+                "name": "Strength",
+                "duration": "75 dk"
+            },
+            {
+                "time": "19:30",
+                "type": "wod",
+                "name": "WOD",
+                "duration": "60 dk"
+            },
+            {
+                "time": "21:00",
+                "type": "open",
+                "name": "Open Gym",
+                "duration": "90 dk"
+            }
+        ],
+        "weekend": [
+            {
+                "time": "09:00",
+                "type": "wod",
+                "name": "WOD",
+                "duration": "60 dk"
+            },
+            {
+                "time": "11:00",
+                "type": "strength",
+                "name": "Strength",
+                "duration": "75 dk"
+            },
+            {
+                "time": "14:00",
+                "type": "open",
+                "name": "Open Gym",
+                "duration": "120 dk"
+            }
+        ]
+    },
+    "about": {
+        "title": "CrossFit Deneyimi",
+        "description": "Studio48, 2020'den bu yana Ankara'da profesyonel CrossFit eğitimi sunmaktadır. Son teknoloji ekipmanlarımız ve uzman kadromuzla her seviyeden sporculara hizmet veriyoruz.",
+        "features": [
+            "Rogue Ekipmanları",
+            "Level 2 Antrenörler",
+            "Kişisel Takip",
+            "Topluluk Ruhu"
+        ]
+    }
+}

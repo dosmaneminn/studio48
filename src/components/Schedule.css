@@ -1,0 +1,135 @@
+.schedule {
+    background: var(--color-bg-elevated);
+}
+
+.schedule-tabs {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-xl);
+}
+
+.schedule-tab {
+    padding: var(--space-sm) var(--space-lg);
+    background: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    color: var(--color-text-secondary);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.schedule-tab:hover {
+    border-color: var(--color-text-muted);
+}
+
+.schedule-tab.active {
+    background: var(--color-accent);
+    border-color: var(--color-accent);
+    color: var(--color-text);
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-md);
+}
+
+.schedule-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.schedule-time {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.schedule-info {
+    text-align: right;
+}
+
+.schedule-type {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    margin-bottom: var(--space-xs);
+}
+
+.schedule-type.wod {
+    background: rgba(255, 77, 0, 0.2);
+    color: #FF6B35;
+}
+
+.schedule-type.strength {
+    background: rgba(74, 144, 217, 0.2);
+    color: #6BA8E5;
+}
+
+.schedule-type.mobility {
+    background: rgba(39, 174, 96, 0.2);
+    color: #58D68D;
+}
+
+.schedule-type.open {
+    background: rgba(155, 89, 182, 0.2);
+    color: #B57EDC;
+}
+
+.schedule-duration {
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+}
+
+.schedule-legend {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-lg);
+    margin-top: var(--space-xl);
+    flex-wrap: wrap;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+}
+
+.legend-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.legend-dot.wod {
+    background: #FF6B35;
+}
+
+.legend-dot.strength {
+    background: #6BA8E5;
+}
+
+.legend-dot.mobility {
+    background: #58D68D;
+}
+
+.legend-dot.open {
+    background: #B57EDC;
+}
